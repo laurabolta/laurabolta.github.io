@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.f3a96b935e3a72de1a26bb5063ec9d51d91771a9cc6a2b520da1ed5d3fd55008.css" integrity="sha256-86lrk146ct4aJrtQY&#43;ydUdkXcanMaitSDaHtXT/VUAg=" />
+<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
 
 
 
@@ -21,11 +21,11 @@
 
 
 
-<meta property="og:title" content="Laura Boltà"/>
+<meta property="og:title" content="John&#39;s Blog"/>
 <meta property="og:type" content="website"/>
-<meta property="og:description" content=""/>
-<meta property="og:image" content="/">
-<meta property="og:url" content="http://localhost:1313/">
+<meta property="og:description" content="Portfolio and personal blog of John Doe."/>
+<meta property="og:image" content="/images/author/laura.png">
+<meta property="og:url" content="https://hugo-toha.github.io">
 
     
 <meta name="description" content="Project1" />
@@ -89,8 +89,12 @@ document.documentElement.setAttribute('data-theme', theme)
 
 
 
+  
 
 
+
+
+  
 
 
 
@@ -106,7 +110,7 @@ document.documentElement.setAttribute('data-theme', theme)
     </button>
     
     <a class="navbar-brand" href="/">
-      Laura Boltà</a>
+      Laura Boltà Ballesteros</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -124,10 +128,137 @@ document.documentElement.setAttribute('data-theme', theme)
           <a class="nav-link" href="/#home">Home</a>
         </li>
         
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#projects">Projects</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#publications">Publications</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#featured-posts">Featured Posts</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#recent-posts">Recent Posts</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#accomplishments">Accomplishments</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#achievements">Achievements</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
         
         
         
         
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://toha-guides.netlify.app/posts/">Docs</a>
+              </li>
+            
         
         
         
@@ -155,6 +286,74 @@ document.documentElement.setAttribute('data-theme', theme)
             <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
             <div class="subtree">
                 
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/category/"> Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/category/sub-category/"> Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/markdown-sample/" title="Markdown Sample">Markdown Sample</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
 
             </div>
           </ul>
@@ -177,8 +376,8 @@ document.documentElement.setAttribute('data-theme', theme)
       <div class="page-content">
         
         <div class="author-profile ms-auto align-self-lg-center">
-          <img class="rounded-circle" src='/images/default-avatar_hu_af7c48c7ef93202f.png' alt="Author Image">
-          <h5 class="author-name"></h5>
+          <img class="rounded-circle" src='/images/author/laura_hu_cd5be260f409b715.png' alt="Author Image">
+          <h5 class="author-name">Laura Boltà Ballesteros</h5>
           <p class="text-muted">Tuesday, October 7, 2025</p>
         </div>
         
@@ -217,9 +416,23 @@ document.documentElement.setAttribute('data-theme', theme)
 
 
 
+  
 
 
 
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
 
 
 <div class="row next-prev-navigator">
@@ -269,19 +482,32 @@ document.documentElement.setAttribute('data-theme', theme)
 
   
   
-
-  
-  
-
-  
+    
   
 
   
   
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
 
 
   
   
+  
+    
   
 
   
@@ -306,8 +532,137 @@ document.documentElement.setAttribute('data-theme', theme)
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
           
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#publications">Publications</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#featured-posts">Featured Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#accomplishments">Accomplishments</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#achievements">Achievements</a>
+                </li>
+              
+            
+              
+                
+              
+            
+          </ul>
+          
         </div>
         
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:lboltaball@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>lboltaball@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/laurabolta target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>laurabolta</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/laurabolta target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Laura Boltà Ballesteros</span>
+                </a></li>
+              
+            
+              
+                <li><a href=tel:&#43;34645177193 target="_blank" rel="noopener">
+                  <span><i class="fas fa-phone-alt"></i></span> <span>&#43;34645177193</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
         
         
         
@@ -340,7 +695,7 @@ document.documentElement.setAttribute('data-theme', theme)
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2025 Copyright.</div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
         <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
@@ -356,7 +711,7 @@ document.documentElement.setAttribute('data-theme', theme)
   </footer>
 
 
-    <script src="/application.dfcb535c2e8dbcce06c703ec541d7ec043021bc11d3024a74c85162f304e2f01.js" integrity="sha256-38tTXC6NvM4GxwPsVB1&#43;wEMCG8EdMCSnTIUWLzBOLwE=" defer></script>
+    <script src="/scripts/application.js" integrity="" defer></script>
 
 
     
